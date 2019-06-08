@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin-left: 140px;
+    background-color: #ECF0F1;
+}
+
+.logo {
+    margin-top: 40px;
+    width: 20%;
+    }
+
+.main-container {
+    margin-top: 140px;
+}
+
+    .main-title {
+        font-size: 50px;
+        color: #40223E;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        font-size: 26px;
+        color: #A75A69; 
+    }
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    color: #ECF0F1;
+} 
+
+    .cards .imgHolder {
+        border-top: 10px; 
+        padding: 60px;
+    }
+
+    .cards .imgHolder h5 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .cards .imgHolder h2 {
+       font-weight: 600;
+       font-size: 40px;
+    }
+
+        .cards .firstCard {
+           border-top: 10px solid #47B39C;
+           border-radius: 0 0 25px 25px;
+           background-image: linear-gradient(to top, rgba(64, 34, 62, 0.75),rgba(64, 34, 62, 1)),
+           url(../images/WebCard.png);
+           width: 470px;
+           height: 350px;
+           background-size: cover;
+        }
+
+        .cards .secondCard {
+            border-top: 10px solid #DF6651;
+            border-radius: 0 0 25px 25px;
+           background-image: linear-gradient(to top, rgba(64, 34, 62, 0.75),rgba(64, 34, 62, 1)),
+           url(../images/GraphicCard.png);
+           width: 470px;
+           height: 350px;
+           background-size: cover;
+        }
+
+        .cards .thirdCard {
+           border-top: 10px solid #F6B94F;
+           border-radius: 0 0 25px 25px;
+           background-image: linear-gradient(to top, rgba(64, 34, 62, 0.75),rgba(64, 34, 62, 1)),
+           url(../images/OOPCard.png);
+           width: 470px;
+           height: 350px;
+           background-size: cover;
+        }
+
+footer {
+    margin-top: 130px;
+}
+
+
+
+           
