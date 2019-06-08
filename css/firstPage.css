@@ -67,7 +67,9 @@ body {
     }
 
     .button img {
-       float: right;
+        margin-top: 10%;
+        width: 20%;
+        height: 20%;
     }
 
         .cards .firstCard {
