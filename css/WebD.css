@@ -65,3 +65,108 @@ body {
          }
         
          
+/* Mario */
+
+.cards {
+    width: 100%;
+    display: flex;
+    margin: 30px 0px 100px 0px;
+}
+
+	.cardWrapper {
+		width: 320px;
+	}
+
+		.cardWrapper a {
+			display: inline-block;
+			border-radius: 5px;
+			position: relative;
+		}
+
+		.cardWrapper a:before {
+			content: "";
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			background: #dedede;
+			border-radius: 15px;
+			position: absolute;
+			right: -12px;
+			top: 12px;
+		}
+
+		.card-wrapper-inner {
+			width: 100%;
+			display: inline-block;
+			position: relative;
+		}
+
+			.section-top {
+				width: 100%;
+				height: 480px;
+				display: inline-block;
+				position: relative;
+			}
+
+				.imgHolder-1 {
+					display: inline-block;
+					width: 100%;
+					height: 100%;
+					overflow: hidden;
+					border: 4px solid #df6650;
+					border-top-left-radius: 15px;
+					border-top-right-radius: 15px;
+				}
+
+				.titles {
+					display: flex;
+					width: 100%;
+					height: 140px;
+					position: absolute;
+					bottom: 0;
+					align-items: flex-end;
+				}
+
+				.titles h2 {
+					color: #fff;
+					position: relative;
+					z-index: 1;
+					box-sizing: border-box;
+					padding: 25px 20px;
+					line-height: 30px;
+				}
+
+				.line-holder {
+					position: absolute;
+					bottom: 0;
+					mask: url("../images/decoration.svg") no-repeat center center;
+					-webkit-mask: url("../images/decoration.svg") no-repeat center center;
+					-webkit-mask-size: cover;
+					background: #FA583A;
+					mask-size: cover;
+					width: 100%;
+					height: 100%;
+				}
+
+				.line-holder-bottom {
+					mask: url("../images/decoration-bottom.svg") no-repeat center center;
+					-webkit-mask: url("../images/decoration-bottom.svg") no-repeat center center;
+					-webkit-mask-size: contain;
+					background: #FA583A;
+					mask-size: contain;
+					width: 100%;
+					height: 22px;
+					display: inline-block;
+					margin: 5px 0px 0px 0px;
+				}
+
+					.imgHolder-1 img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+
+					.line-holder svg {
+						width: 100%;
+						height: 200px;
+					}
