@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ECF0F1;
+}
+
+    .HeroPage {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+.logo {
+    margin-top: 40px;
+    width: 20%;
+    }
+
+.WebIntro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+  
+    .WebIntro .introImg {
+       width: 800px;
+       height: 400px;
+       border-radius: 15px;
+       background-image:url(../images/akson-717434-unsplash.png);
+       padding: 20px;
+    }
+
+    .introText {
+        width: 800px;
+        height: 400px;
+        border-radius: 15px;
+        background-color:#ffffff;
+        margin-left: 20px;
+        padding: 40px;
+    }
+    
+        .introText h2 {
+            color: #40223E;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 50px;
+        }
+
+      .imgHolder {
+          width: 330px;
+          height: 540px;
+          overflow: hidden;
+         } 
+         
+         .imgHolder img {
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+             position: relative;
+         }
+        
+         
