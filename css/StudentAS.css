@@ -143,8 +143,9 @@ body {
  /* right Side of the page */
 
 .rightContainer {
-    width: 70%;
+    width: 60%;
     height: 440px;
+    margin-top: 120px;
 }
 
 .gallery {
