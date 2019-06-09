@@ -10,7 +10,7 @@ body {
     background-color: #ECF0F1;
 }
 
-    .HeroPage {
+    .heroPage {
         width: 90%;
         margin: 0px auto;
     }
@@ -20,7 +20,7 @@ body {
     width: 20%;
     }
 
-.WebIntro {
+.webIntro {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

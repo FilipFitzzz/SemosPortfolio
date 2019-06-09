@@ -10,7 +10,7 @@ body {
     background-color: #ECF0F1;
 }
 
-    .heroPage {
+    .HeroPage {
         width: 90%;
         margin: 0px auto;
     }
@@ -20,55 +20,22 @@ body {
     width: 20%;
     }
 
-.webIntro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    .mainContainer {
+        display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    align-items: center;
+	    align-content: space-between;
+    }
+
+.leftContainer {
     margin-top: 60px;
+    width:25%;
 }
-  
-    .WebIntro .introImg {
-       width: 800px;
-       height: 400px;
-       border-radius: 15px;
-       background-image:url(../images/akson-717434-unsplash.png);
-       padding: 20px;
-    }
-
-    .introText {
-        width: 800px;
-        height: 400px;
-        border-radius: 15px;
-        background-color:#ffffff;
-        margin-left: 20px;
-        padding: 40px;
-    }
-    
-        .introText h2 {
-            color: #40223E;
-            font-weight: bold;
-            font-size: 50px;
-            line-height: 50px;
-        }
-
-      .imgHolder {
-          width: 330px;
-          height: 540px;
-          overflow: hidden;
-         } 
-         
-         .imgHolder img {
-             width: 100%;
-             height: 100%;
-             object-fit: cover;
-             position: relative;
-         }
-        
-/* Mario */
 
 .cards {
     width: 100%;
-	margin: 30px 0px 100px 0px;
+	margin: 30px 30px 30px 0px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -78,7 +45,7 @@ body {
 }
 
 	.cardWrapper {
-		width: 320px;
+		width: 280px;
 	}
 
 		.cardWrapper a {
@@ -107,7 +74,7 @@ body {
 
 			.section-top {
 				width: 100%;
-				height: 480px;
+				height: 440px;
 				display: inline-block;
 				position: relative;
 			}
@@ -173,23 +140,73 @@ body {
 					.line-holder svg {
 						width: 100%;
 						height: 200px;
-					}
+                    }
 
-	footer {
-		font-weight: lighter;
-		font-size: 12px;
-		color: #40223E;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between; 
-	}
+ /* right Side of the page */
 
-	footer a {
-		text-decoration: none;
-		color: #40223E;  
-	}
+.rightContainer {
+    width: 60%;
+    height: 440px;
+}
 
-	.icon {
-		margin-right: 10px;
-	}
-    
+.gallery {
+position: relative;
+}
+
+.gallery:hover .thumb {
+  opacity: .5;
+}
+
+    .thumb {
+    height: 100px;
+    width: 15%;
+    background: no-repeat center center;
+    background-size: cover;
+    margin: 10px;
+    }
+
+    .gallery .thumb:hover {
+    opacity: 1; 
+    }
+
+.thumb:before, .thumb:after { 
+  opacity: 0; 
+}
+
+.thumb:last-of-type:before, .thumb:last-of-type:after { opacity: 1; }
+.thumb:hover:before, .thumb:hover:after { 
+  z-index: 100; 
+  opacity: 1;
+  
+}
+
+.thumb:before { 
+  content: '';
+  position: absolute;
+  top: 0; left: 20%;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  padding-left: 20px; 
+  background: inherit;
+}
+
+.thumb.first {
+  background-image: url(../images/proekti/AS-1.png);
+}
+
+.thumb.second {
+  background-image: url(../images/proekti/AS-2.png);
+}
+
+.thumb.third {
+  background-image: url(../images/proekti/AS-3.png);
+}
+
+.thumb.fourth {
+    background-image: url(../images/proekti/AS-4.png);
+  }
+
+  .thumb.fifth {
+    background-image: url(../images/proekti/AS-5.png);
+  }
